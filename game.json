@@ -1,0 +1,44 @@
+{
+	"width": 480,
+	"height": 480,
+	"fps": 30,
+	"main": "./script/bundle.js",
+	"assets": {
+		"asset:c0a1f9": {
+			"type": "image",
+			"width": 102,
+			"height": 34,
+			"path": "assets/parts/buttons.png"
+		},
+		"bundle": {
+			"type": "script",
+			"path": "script/bundle.js",
+			"global": true
+		}
+	},
+	"moduleMainScripts": {
+		"@akashic-extension/coe": "node_modules/@akashic-extension/coe/lib/index.js",
+		"@akashic-extension/akashic-label": "node_modules/@akashic-extension/akashic-label/lib/index.js"
+	},
+	"environment": {
+		"sandbox-runtime": "3"
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/coe/lib/Controller.js",
+		"node_modules/@akashic-extension/coe/lib/SceneWatcher.js",
+		"node_modules/@akashic-extension/coe/lib/View.js",
+		"node_modules/@akashic-extension/coe/lib/global.js",
+		"node_modules/@akashic-extension/coe/lib/impl/BaseController.js",
+		"node_modules/@akashic-extension/coe/lib/impl/COEController.js",
+		"node_modules/@akashic-extension/coe/lib/impl/COEMessageEventHandler.js",
+		"node_modules/@akashic-extension/coe/lib/impl/Scene.js",
+		"node_modules/@akashic-extension/coe/lib/impl/index.js",
+		"node_modules/@akashic-extension/coe/lib/index.js",
+		"node_modules/@akashic-extension/coe/lib/parameters.js",
+		"node_modules/@akashic-extension/akashic-label/lib/DefaultRubyParser.js",
+		"node_modules/@akashic-extension/akashic-label/lib/FragmentDrawInfo.js",
+		"node_modules/@akashic-extension/akashic-label/lib/Label.js",
+		"node_modules/@akashic-extension/akashic-label/lib/RubyParser.js",
+		"node_modules/@akashic-extension/akashic-label/lib/index.js"
+	]
+}
