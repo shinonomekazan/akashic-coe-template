@@ -21,7 +21,11 @@
 		"@akashic-extension/akashic-label": "node_modules/@akashic-extension/akashic-label/lib/index.js"
 	},
 	"environment": {
-		"sandbox-runtime": "3"
+		"sandbox-runtime": "3",
+		"akashic-runtime": {
+			"version": "~3.0.19",
+			"flavor": "-canvas"
+		}
 	},
 	"globalScripts": [
 		"node_modules/@akashic-extension/coe/lib/Controller.js",
