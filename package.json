@@ -23,10 +23,9 @@
 	"author": "Shinonomekazan Co., Ltd.",
 	"license": "MIT",
 	"devDependencies": {
-		"@akashic/akashic-cli-export-html": "^1.4.3",
-		"@akashic/akashic-cli-export-zip": "^0.9.1",
-		"@akashic/akashic-cli-scan": "^0.10.5",
-		"@akashic/akashic-cli-serve": "^1.9.10",
+		"@akashic/akashic-cli-export": "^1.2.11",
+		"@akashic/akashic-cli-scan": "^0.10.7",
+		"@akashic/akashic-cli-serve": "^1.9.14",
 		"@akashic/akashic-engine": "^3.1.0",
 		"@akashic/akashic-sandbox": "^0.17.29",
 		"@akashic/headless-akashic": "^2.1.0",
